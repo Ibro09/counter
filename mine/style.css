@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box ;
+}
+body{
+    background-color: rgb(236, 237, 238);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+h2{
+    font-size: 53px;
+    margin-top: -35px;
+}
+.value{
+
+    font-size: 103px;
+}
+.btns{
+ 
+    display: flex;
+
+}
+.btn{
+   padding: 7px;
+   font-size: 20px;
+   margin: 10px;
+   border-radius: 5px;
+
+}
+.btn:hover{
+    transition:1s ;
+    background-color: black;
+    color: white;
+}
